@@ -7,6 +7,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   
     <title>Savanna's First Web</title>
 
@@ -14,8 +17,8 @@
 
 
 body {
-  background-color:#817A6F;
-  background-image: url(images/ppl2.png);
+  background-color: black;
+  background-image: url(images/ppl.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -24,7 +27,6 @@ body {
 
 p {
   font-size: 120%;
-  font-family:Arial;
   text-align:center;
   color:white;
 }
@@ -36,7 +38,8 @@ a {
  font-weight: 700;
 }
 
-    .montserrat-alternates-extrabold {
+/* Fonts setup */
+.montserrat-alternates-extrabold {
   font-family: "Montserrat Alternates", system-ui;
   font-weight: 700;
   font-style: normal;
@@ -44,6 +47,13 @@ a {
   color: #DCDC3A;
   text-align:center;
   line-height:1;
+}
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  line-height:1.5;
 }
 
 .open-sans {
@@ -56,16 +66,16 @@ a {
 .open-sans-bold {
    font-family: "Open Sans", sans-serif;
    font-weight: 700;
-   color: #817A6F;
+   color: black;
 }
 
+/* Button setup */
 .button {
   display: inline-block;
   padding: 12px 30px;
   font-size:200%;
   background-color:#DCDC3A;
   border: none;
-  border-radius: 50px;
   cursor: pointer;
   text-align: center;
 }
@@ -82,10 +92,47 @@ a {
   color:white
 }
 
+/* Center Aurio */
 .audio-container {
   text-align: center;
 }
-      
+
+/* Typewriter effect*/
+
+.typewriter {
+  text-align: center;
+}
+
+.typewriter p {
+  font-family: 'Courier', monospace;
+  font-size: 20px;
+  line-height: 1.5;
+  display: inline-block;
+  white-space: nowrap; 
+  overflow: hidden; 
+  border-right: 2px solid; 
+  width: 0; 
+  animation: typing 3s steps(40, end) forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;  
+  }
+}
+
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+
 </style>
   </head>
   
@@ -110,11 +157,17 @@ a {
 
 <h2 class="montserrat-alternates-extrabold">  Encountering Diversity:<br> NYC's Subway Riders
 
-
 </h2>
-<p class="open-sans">In the bustling, fast-paced life of urban <strong>New York City</strong>, the Subway<br>has become an integral part of daily routines. Let's explore how<br>people spend their times during their Subway commute.</p>
-<br><br><br><br>
 
+
+<div class="typewriter">
+  <div>
+      <p>In the bustling, fast-paced life of urban New York City, the Subway<br>
+      has become an integral part of daily routines. Let's explore how<br>
+      people spend their times during their Subway commute.</p>
+  </div>
+</div>
+<br><br><br><br><br>
 
 <div class="button-container">
     <a href="entry2.html" class="button open-sans-bold">Start!</a>
@@ -124,10 +177,6 @@ a {
 
 <br><br><br><br><br><br><br><br><br><br><br>
 
-<div style="background-color:#DCDC3A;color:#817A6F;padding:20px;">
- <p style="color:#817A6F">\ (◕‿◕) Hello there! (◕‿◕) /</p>
-  
-</div> 
   </body>
 
 </html>
