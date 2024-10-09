@@ -78,6 +78,7 @@ a {
   border: none;
   cursor: pointer;
   text-align: center;
+  animation: enlarge 1s linear infinite;
 }
 
 .button-container {
@@ -97,6 +98,17 @@ a {
   text-align: center;
 }
 
+@keyframes enlarge{
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
 
 
 </style>
