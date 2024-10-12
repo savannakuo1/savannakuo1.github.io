@@ -14,6 +14,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  cursor: url(images/magnify.svg), auto;
 }
 
 p {
@@ -68,6 +69,7 @@ a {
     border-radius: 100px;
     color:white;
     transition: 0.5s;
+    cursor: url(images/magnify.svg), auto;
 }
 
 .category-link:hover {
@@ -76,6 +78,21 @@ a {
     color: #817A6F;
     
 
+}
+
+.car {
+    animation: move 8s linear infinite;
+   }
+
+
+@keyframes move {
+  0% {
+    transform: translateX(-500px);
+  }
+  100%{
+    transform: translateX(2000px);
+ 
+  }
 }
 
 
@@ -106,6 +123,10 @@ a {
     <a href="category5" class="category-link">Pet Owners</a>
     <a href="category6" class="category-link">Street Performers</a>
 </div>
+
+<div class="car">
+  <img src="images/an orange block.png" height="200">
+ </div>
 
 
 <body>

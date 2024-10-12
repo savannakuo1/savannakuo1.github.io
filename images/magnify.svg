@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="90" height="90" style="transform: translate(0px, -10px);">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cdcece;
+        opacity: .14;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #999;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #b5b5b6;
+        stroke-miterlimit: 10;
+        stroke-width: 1.05px;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="m25.56,26.57h0c-.66.55-1.65.44-2.16-.25l-6.78-9.05,1.4-1.17,7.68,8.29c.58.63.52,1.62-.14,2.17Z"/>
+  <circle class="cls-1" cx="13.26" cy="11.82" r="6.43"/>
+  <circle class="cls-3" cx="13.26" cy="11.82" r="6.43"/>
+  <path class="cls-1" d="m11.5,8.09c1.66-.78,3.69-.39,4.92,1.09.26.32.47.66.63,1.02"/>
+</svg>
