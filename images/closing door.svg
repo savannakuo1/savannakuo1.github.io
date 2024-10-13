@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+<svg id="_圖層_3" data-name="圖層 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <defs>
     <style>
       .cls-1 {
-        fill: #b3b3b4;
+        fill: #898989;
         font-family: OpenSansRoman-SemiBold, 'Open Sans';
-        font-size: 1.93px;
+        font-size: 1.89px;
         font-variation-settings: 'wght' 600, 'wdth' 100;
         font-weight: 600;
       }
     </style>
   </defs>
-  <text class="cls-1" transform="translate(.89 12.65) rotate(3.56)"><tspan x="0" y="0">“Stand clear of the closing door”</tspan></text>
+  <text class="cls-1" transform="translate(1.23 15.58) rotate(4.62)"><tspan x="0" y="0">“Stand clear of the closing door”</tspan></text>
 </svg>
