@@ -97,6 +97,7 @@ a {
 /* Center Aurio */
 .audio-container {
   text-align: center;
+  display: none;
 }
 
 @keyframes enlarge{
@@ -127,6 +128,46 @@ a {
   }
 }
 
+/* Dialogue Animation */
+.dialogue {
+    animation: appear 2s linear infinite;
+    transform: translateX(80%);
+   }
+
+   .door {
+    animation: appear 3s linear infinite;
+   }
+
+   .weekend {
+    animation: appear 2s linear infinite;
+   }
+
+   .excuse-me {
+    animation: appear 3.5s linear infinite;
+   }
+
+
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 100;
+  }
+  50% {
+    opacity: 100;
+  }
+  75% {
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+
+
 
 </style>
   </head>
@@ -139,21 +180,16 @@ a {
  <br>
  <a href="processpage.html" style= "font-size: 150%; margin: 25px;" class="butter">Process</a>
 
-<br><br><br><br><br><br><br>
 
-
-<div class="audio-container">
-<audio controls autoplay>
-  <source src="/images/sound-of-subway-train-train-door-opening-13510.mp3">
-  </audio></div>
-
-  </body>
+<div class="dialogue">
+  <img src="images/where's my train.svg" height="200">
+</div>
 
 
 
-<h2 class="montserrat-alternates-extrabold">  Encountering Diversity:<br> NYC's Subway Riders
 
-</h2>
+<h2 class="montserrat-alternates-extrabold">  Encountering Diversity:<br> NYC's Subway Rider</h2>
+
 
 
 <div class="courier-prime-regular">
@@ -167,6 +203,29 @@ a {
     <a href="entry2.html" class="button open-sans-bold">Start!</a>
 </div>
 
+<div class="door">
+  <img src="images/closing door.svg" height="325" style="transform: translate(50%, -70%);">
+</div>
+
+<div class="weekend">
+  <img src="images/ready for weekend.svg" height="320" style="transform: translate(10%, -340%);">
+</div>
+
+<div class="excuse-me">
+  <img src="images/excuse me.svg" height="325" style="transform: translate(10%, -340%);">
+</div>
+
+<div class="excuse-me">
+  <img src="images/there it is.svg" height="325" style="transform: translate(180%, -550%);">
+</div>
+
+
+
+
+<div class="audio-container">
+  <audio controls autoplay>
+    <source src="/images/sound-of-subway-train-train-door-opening-13510.mp3">
+    </audio></div>
 
 
 <br><br><br><br><br><br><br><br><br><br><br>
