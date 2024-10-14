@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_3" data-name="圖層 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 513.33 612">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #97d5e6;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 6.21px;
+      }
+
+      .cls-2 {
+        stroke: #bc77af;
+      }
+
+      .cls-3 {
+        font-family: OpenSansRoman-Bold, 'Open Sans';
+        font-size: 30.61px;
+        font-variation-settings: 'wght' 700, 'wdth' 100;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #231815;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        fill: #e0cd93;
+      }
+
+      .cls-6 {
+        fill: #dcdc3a;
+      }
+
+      .cls-7 {
+        fill: #acadae;
+      }
+
+      .cls-8 {
+        fill: #907147;
+      }
+
+      .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-10 {
+        fill: #e4c961;
+      }
+
+      .cls-11 {
+        fill: #e4e3d9;
+      }
+
+      .cls-12 {
+        fill: #fcefce;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-7" x="72.99" y="282.58" width="21.79" height="247.32" rx="10.9" ry="10.9" transform="translate(64.44 -8.11) rotate(8.98)"/>
+    <circle class="cls-12" cx="85.38" cy="384.95" r="31.48"/>
+    <path class="cls-12" d="m357.64,294.96c-8.87,54.13-59.54,90.89-113.18,82.1-43.47-7.12-75.55-41.97-81.43-83.74-1.38-9.77-1.32-19.92.36-30.18,8.87-54.13,59.54-90.89,113.18-82.1,1.78.29,3.54.63,5.28,1.02,49.42,10.88,82.62,58.08,76.36,108.91-.17,1.33-.36,2.66-.57,4Z"/>
+    <path class="cls-10" d="m413.89,464.4c38.65-62.83,8.09-86.71-27.56-106.72-32.71-23.73-34.11-30.76-20.12-63.65,6.37-14.99,19.81-46.48-12-66.48-25.96-16.32-16.46-55.86-71.43-45.54-1.69.32-2.3,2.05-1.5,3.27,18.5,27.93,29.18,73.32-6.83,93.58-25.31,15.16-52.21,47.61-12.73,96.98,38.98,43.8,41.86,64.03,12.56,107.39l139.61-18.82Z"/>
+    <polygon class="cls-11" points="267.73 486.65 157.7 526.42 72.63 336.28 211.57 286.07 267.73 486.65"/>
+    <g>
+      <circle class="cls-9" cx="304.28" cy="294.02" r="33.47"/>
+      <rect class="cls-9" x="292.76" y="299.28" width="26.47" height="72" transform="translate(185.14 -102.26) rotate(26.94)"/>
+    </g>
+    <ellipse class="cls-4" cx="203.8" cy="227.12" rx="14.84" ry="6.51" transform="translate(-90.53 307.67) rotate(-63.4)"/>
+    <rect class="cls-4" x="281.14" y="286.8" width="10.53" height="24.39" transform="translate(-48.37 55.38) rotate(-10.19)"/>
+    <rect class="cls-5" x="265.55" y="409.59" width="194.27" height="126.37" transform="translate(864.18 794.58) rotate(160.18)"/>
+    <rect class="cls-8" x="119.31" y="451.84" width="150" height="97.57" transform="translate(254.38 1034.26) rotate(-165.21)"/>
+    <rect class="cls-12" x="196.05" y="400.5" width="159.2" height="56.33" rx="28.17" ry="28.17" transform="translate(662.72 760.21) rotate(163.32)"/>
+    <polygon class="cls-5" points="161.5 460.74 176.35 404.46 257.39 425.86 242.54 482.13 235.81 480.36 248.84 431 181.44 413.21 168.41 462.56 161.5 460.74"/>
+    <polyline class="cls-1" points="109.34 135.42 116.74 189.35 146.84 185.22 153.08 230.74"/>
+    <polyline class="cls-2" points="85.38 176.47 103.34 219.52 123.23 211.23 138.39 247.57"/>
+    <polygon class="cls-8" points="298.36 454.4 272.8 383.49 374.92 346.68 400.48 417.6 392.01 420.65 369.59 358.46 284.66 389.07 307.07 451.26 298.36 454.4"/>
+  </g>
+  <rect class="cls-6" x="73.88" y="23.67" width="397.85" height="79.27" rx="38.5" ry="38.5"/>
+  <text class="cls-3" transform="translate(109.34 73.05)"><tspan x="0" y="0">I got a new trash bin!</tspan></text>
+  <polyline class="cls-6" points="296.91 135.42 279.14 89.69 314.69 89.69"/>
+</svg>
