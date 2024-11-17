@@ -64,10 +64,10 @@ a {
 .category-link {
     text-decoration: none;
     font-size:150%;
-    padding: 50px 50px; 
+    padding: 35px 50px; 
     background-color:#DCDC3A; 
     border-radius: 100px;
-    color:white;
+    color:black;
     transition: 0.5s;
     cursor: url(images/magnify.svg), auto;
 }
@@ -80,33 +80,43 @@ a {
 
 }
 
+.subway-container {
+  width: 100%; 
+  display: flex;
+  padding: 0; 
+  margin: 10px auto;
+  position: relative;
+}
+
 .car {
     animation: move 8s linear infinite;
+    position: absolute; 
+    top: 110px; 
+    left: 0; 
    }
 
 
 @keyframes move {
   0% {
-    transform: translateX(-500px);
+    transform: translateX(-1500px);
   }
   100%{
     transform: translateX(2000px);
- 
   }
 }
 
 .rat {
-transform: translate(1200%, -720%);
+transform: translate(2000%, -520%);
 filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
 }
 
 .paper {
-  transform: translate(-530%, -1035%)rotate(-25deg);
+  transform: translate(350%, -510%)rotate(-25deg);
 filter: drop-shadow(5px 2px 5px rgba(0, 0, 0, 0.5));
 }
 
 .gum {
-transform: translate(0%, -3930%)rotate(180deg);
+transform: translate(3500%, -220%)rotate(180deg);
 }
 
 
@@ -145,12 +155,13 @@ transform: translate(0%, -3930%)rotate(180deg);
   <a href="entry10.html" class="category-link">Unknown</a>
   <a href="entry11.html" class="category-link">Unknown</a>
 </div>
+<br>
 
 <div>
-  <img src="images/an orange block.png" class="car" height="400">
+  <img src="images/an orange block.png" class="car" height="100">
   <img src="https://r2.erweima.ai/midjourney/1712446058_0aff2b62a16d4e1db745e5b01ac4330f.png" class="rat" height="70">
   <img src="https://static.vecteezy.com/system/resources/previews/013/167/417/non_2x/crumpled-brown-paper-free-png.png" class="paper" height="70">
-  <img src="images/sc.png" class="gum" height="30">
+  <img src="images/sc.png" class="gum" height="35">
  </div>
 
 <body>
