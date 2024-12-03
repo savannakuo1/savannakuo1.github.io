@@ -20,6 +20,16 @@ body {
   cursor: url(images/magnify.svg), auto;
 }
 
+button {
+      padding: 10px 20px;
+      background-color: #DCDC3A;
+      color: black;
+      border: none;
+      border-radius: 20px;
+      font-size: 16px;
+      cursor: url(images/magnify.svg), auto;
+    }
+
 p {
   font-size: 120%;
   font-family:Arial;
@@ -126,6 +136,13 @@ a {
 
 <body>
 
+  <button onclick="changeBackground()"> Turn off the light </button>
+
+  <script>
+    function changeBackground() {
+      document.body.style.backgroundColor = '#396196';
+    }
+  </script>
 
 <br>
 <div class="justify-space-between">

@@ -139,8 +139,11 @@ a {
 }
 
 .move-image {
-  width: 150px;
-  animation: move 3s ease-in-out infinite;
+  position: absolute;
+  top: 40%;
+  right: 8%;
+  width: 120px;
+  animation: move 1.5s ease-in-out infinite;
 }
 
 @keyframes move {
@@ -148,7 +151,7 @@ a {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(200px);
+    transform: translate(100px,-50px);
   }
   100%{
     transform: translateX(0);
