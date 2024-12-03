@@ -92,6 +92,24 @@ a {
     transform: translate(-10%, -40%);
    }
 
+.haha {
+  position: relative;
+    width: 500px; 
+    height: 600px; 
+    margin-left: auto;
+    text-align: right;
+    transform: translate(-10%, -40%);
+   }
+
+   .image-wrapper {
+  position: relative;
+    width: 500px; 
+    height: 600px; 
+    margin-left: auto;
+    text-align: right;
+    transform: translate(-10%, -40%);
+   }
+
    .image {
   position: absolute;
   top: 0;
@@ -120,6 +138,23 @@ a {
   justify-content: space-between;
 }
 
+.move-image {
+  width: 150px;
+  animation: move 3s ease-in-out infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
 
 </style>
 </head>
@@ -139,7 +174,7 @@ a {
   <p class="text">A little girl</p>
 </div>
 
-
+<img src="images/click.png" class="move-image">
 <p class="courier-prime-regular" style="text-align: left; margin-left: 80px">wearing a brown fuzzy coat and a pair of Nike
     Dunks sits by her mother.<br> Her hair was tied into several small braids, decorated with colorful beads<br>
     in various sizes and shapes. She is shouting loudly, saying "It's broken!!"<br>
@@ -147,7 +182,20 @@ a {
     as if something has caused her to lose her patience.
 </p>
 
-<div class="image-wrapper">
-  <img src="images/littlegirl.png" alt="Children" class="image image1" height="500">
-  <img src="images/littlegirl2.png" alt="Children" class="image image2" height="500">
+<div class="haha">
+<img id="toggleImage" src="images/notbroken.png" alt="Toggle Image" style="width:500px; height:auto;" onclick="toggleImage()">
 </div>
+
+<script>
+  function toggleImage() {
+    const imgElement = document.getElementById("toggleImage");
+    if (imgElement.src.endsWith("images/notbroken.png")) {
+      imgElement.src = "images/brokenn.png";
+    } else {
+      imgElement.src = "images/notbroken.png";
+    }
+  }
+</script>
+
+
+</body>
